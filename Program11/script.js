@@ -5,6 +5,7 @@ var array = ["Ali","Nabeel","Ahmad","Usama","Fatima","Saad","Muneeb","Ali","Saim
 
 
 var result = dom.getElementById("result")
+var cons = dom.getElementById("console")
 
 
 result.innerHTML = array
@@ -36,6 +37,7 @@ function freqElement() {
 
 
   }
+  cons.innerHTML = `Result On Console!!`
 }
 
 
